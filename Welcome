@@ -1,0 +1,8 @@
+embed=discord.Embed(title="WELCOME TO THE DISCORD SERVER", description="This Server is Brand new. Recently I have created a small team who is helping me start up the server to officially release and make an amazing game play experience! We have been testing, building, developing. All our ideas are unique and offer a chance for this server to become one of the best! I hope you enjoy what we offer!", color=0x004cff)
+embed.set_author(name="Landonez [Founder]", url="https://landonez.com",, icon_url="https://landonez.com/wp-content/uploads/2020/05/cropped-Landonez-Skyblock-Logo-1.png")
+embed.add_field(name="Our Website", value="Check out the website Https://landonez.com to learn more!", inline=False)
+embed.add_field(name="Info", value="Currently Our Server offers a unique version of Skyblock while implementing quests to give it a fun RPG style of gaming. ", inline=True)
+embed.add_field(name="Future", value="Later we will offer custom UHC, lots of Minigames, parkour, Kit PVP & MORE!", inline=True)
+embed.add_field(name="Thank you for Joining the discord and Have FUN!", value="check out the website https://landonez.com", inline=True)
+embed.set_footer(text="Please Check the rules on the #rules section.")
+await self.bot.say(embed=embed)
